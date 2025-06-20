@@ -1,0 +1,98 @@
+[
+  {
+    "id": "sha256:03c0bc8e0f5a44b612cfacfacd7c7a6eceb7d84d3222cfe62288e6a458787b95",
+    "tags": [
+      "ai/phi4:latest"
+    ],
+    "created": 1742851173,
+    "config": {
+      "format": "gguf",
+      "quantization": "IQ2_XXS/Q4_K_M",
+      "parameters": "14.66 B",
+      "architecture": "phi3",
+      "size": "8.43 GiB"
+    }
+  },
+  {
+    "id": "sha256:f4c0825ab1db4394fbc839c816c4e2ffadcda455aecb1523c6bcbb6e9704de89",
+    "tags": [
+      "ai/phi4:14B-F16"
+    ],
+    "created": 1742852064,
+    "config": {
+      "format": "gguf",
+      "quantization": "F16",
+      "parameters": "14.66 B",
+      "architecture": "phi3",
+      "size": "27.31 GiB"
+    }
+  },
+  {
+    "id": "sha256:bea65515c0eb23c0484a67f71c710b0e5b465a399b245230ad66e13305033e1b",
+    "tags": [
+      "ai/deepseek-r1-distill-llama:8B-F16"
+    ],
+    "created": 1742905840,
+    "config": {
+      "format": "gguf",
+      "quantization": "F16",
+      "parameters": "8.03 B",
+      "architecture": "llama",
+      "size": "14.96 GiB"
+    }
+  },
+  {
+    "id": "sha256:40993c42813cb2cff3d12660ec5210b6bbe6a370d65cf2231bed390d74f734f0",
+    "tags": [
+      "ai/qwen3:8B-F16"
+    ],
+    "created": 1746022930,
+    "config": {
+      "format": "gguf",
+      "quantization": "F16",
+      "parameters": "8.19 B",
+      "architecture": "qwen3",
+      "size": "15.26 GiB"
+    }
+  },
+  {
+    "id": "sha256:020ef929a2866cc4079bf477583c23dc1432e37b9e73b3c20de51a3720b90ac7",
+    "tags": [
+      "ai/smollm2:360M-F16"
+    ],
+    "created": 1745698622,
+    "config": {
+      "format": "gguf",
+      "quantization": "F16",
+      "parameters": "361.82 M",
+      "architecture": "llama",
+      "size": "690.24 MiB"
+    }
+  },
+  {
+    "id": "sha256:fdc7dc57eb225e5cfdd06ba6848fd028f0269a0fedb0aef266f8f8a6024898cf",
+    "tags": [
+      "hf.co/mistralai/devstral-small-2505_gguf:q4_k_m"
+    ],
+    "created": 1747672443,
+    "config": {
+      "format": "gguf",
+      "parameters": "23.6B",
+      "architecture": "llama",
+      "size": "14.3B"
+    }
+  },
+  {
+    "id": "sha256:892cfaf77931705f297b5e6bcfb6f54d0ced56bc95eb6f77e8b464112dd9fc94",
+    "tags": [
+      "hf.co/mistralai/devstral-small-2505_gguf:q8_0"
+    ],
+    "created": 1747672443,
+    "config": {
+      "format": "gguf",
+      "parameters": "23.6B",
+      "architecture": "llama",
+      "size": "25.1B"
+    }
+  }
+]
