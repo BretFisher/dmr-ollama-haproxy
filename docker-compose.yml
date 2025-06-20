@@ -1,0 +1,15 @@
+services:
+  haproxy:
+    image: haproxy:alpine
+    volumes:
+      - .:/usr/local/etc/haproxy
+    ports:
+      - "11434:11434"
+    depends_on:
+      convert:
+        condition: service_completed_successfully
+
+  convert:
+    build: .
+    volumes:
+      - .:/output

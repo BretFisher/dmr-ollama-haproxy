@@ -1,0 +1,47 @@
+# Git / GitHub
+.git
+.gitignore
+.github
+
+# Build artifacts
+dmr-models-convert
+library_usage
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test files
+*_test.go
+coverage.out
+coverage.html
+
+# Documentation
+README.md
+*.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Docker files
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Example files (not needed in production)
+examples/
+example-json/ 

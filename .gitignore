@@ -31,6 +31,9 @@ go.work.sum
 # Go build artifacts
 dmr-models-convert
 
+# dmr-models-convert output
+models.json
+
 # Test binary, built with `go test -c`
 *.test
 
